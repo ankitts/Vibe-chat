@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import './index.css';
 import Chat from './Chat';
 
-const socket = io.connect('http://localhost:3001');
+const socket = io.connect('https://vibe-chat-server.onrender.com/');
 
 const App = () => {
 
